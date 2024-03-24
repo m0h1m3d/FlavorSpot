@@ -41,17 +41,17 @@ function loadChoose(){
     <h1 class="choose-heading">Why Choose Our <span class="orange">Food</span></h1>
     <div class="best">
         <div class="quality">
-            <img class="quality-img" src="./Assets/icons/dinner_dining_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="80">
+            <div class="quality-img"></div>
             <h2>Quality Food</h2>
             <p class="best-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima repudiandae odit.</p>
         </div>
         <div class="taste">
-            <img class="taste-img" src="./Assets/icons/skillet_FILL0_wght400_GRAD0_opsz24 (copy).svg" alt="" height="80">
+            <div class="taste-img"></div>
             <h2>Super Taste</h2>
             <p class="best-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima repudiandae odit.</p>
         </div>
         <div class="fast">
-            <img class="fast-img" src="./Assets/icons/motorcycle_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="80">
+            <div class="fast-img"></div>
             <h2>Fast Delivery</h2>
             <p  class="best-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima repudiandae odit.</p>
         </div>
