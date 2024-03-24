@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+
+header{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2F2D31;
+}
+
+.logo{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.orange{
+    color: #FB9B05;
+}
+
+nav{
+    width: 55.4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FB9B05;
+    border-radius: 100px 0px 0px 0px;
+}
+
+.nav-btns{
+    display: flex;
+    gap: 100px;
+}
+
+nav button{
+    background-color: transparent;
+    border: transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.2s;
+    color: #2F2D31;
+}
+
+nav button:hover{
+    color: #fff;
+}
+
+.header-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.home{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.home-info, .home-img{
+    height: 100%;
+}
+
+.home-img{
+    background-color: #FB9B05;
+    width: 62%;
+    border-radius: 0px 0px 0px 100px;
+    background-image: url('./Assets/imgs/grilled-spicy-chicken-wings-with-ketchup-and-french-fries-ai-generative-free-png.webp');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+}
+
+.home-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: 
+    #2F2D31;
+}
+
+.home-info-heading{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.info{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #514f52;
+}
+
+.home-info-btn{
+    height: 15%;
+    width: 40%;
+    align-self: flex-start;
+    border-radius: 60px;
+    border: transparent;
+    background: #FB9B05;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.home-info-btn:hover{
+    transform: scale(1.03);
+}
+
+.about{
+    margin-top: 100px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-info{
+    /* background-color: green; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    gap: 50px;
+    color: #2f2d31;
+}
+
+.aboutInfo{
+    /* background-color: red; */
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #514f52;
+}
+
+.about-info-heading{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.about-info-btn{
+    border: 1px solid #FB9B05;
+    color: #FB9B05;
+    height: 25%;
+    width: 30%;
+    border-radius: 50px;
+    background: transparent;
+    font-weight: 700;
+    align-self: flex-start;
+    cursor: pointer;
+    transition-property: background color;
+    transition-duration: 0.3s;
+}
+
+.about-info-btn:hover{
+    background: #FB9B05;
+    color: #fff;
+}
+
+.about-img{
+    background: url('./Assets/imgs/about.webp');
+    width: 62%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+}
+
+.style{
+    height: 300px;
+    width: 300px;
+    background-color: #FB9B05;
+    border-radius: 200px 0px 200px 10px;
+    position: relative;
+    left: 90px;
+    z-index: -1;
+}
+
+.why-choose-us{
+    margin-top: 70px;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.why-choose-us-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #2F2D31;
+}
+
+.best{
+    height: 70%;
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quality, .taste, .fast{
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: #242225;
+    transition: box-shadow 0.3s;
+    padding: 10px;
+}
+
+.quality-img, .taste-img, .fast-img{
+    border-radius: 50%;
+    background: #ff9900;
+    padding: 10px;
+}
+
+.quality:hover, .taste:hover, .fast:hover{
+    box-shadow: 5px 10px 10px rgb(190, 190, 190);
+}
+
+.best-info{
+    color: #514f52;
+}
+
+.footer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #242225;
+}
+
+.hours,.location,.subscribe{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hours-info, .location-info{
+    line-height: 2rem;
+    color: #514f52;
+}
+
+.subscribe{
+    gap: 10px;
+}
+
+.subscribe-heading{
+    align-self: center;
+}
+
+.subscribe-input{
+    height: 10%;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    outline-style: none;
+    border: 2px solid #FB9B05;
+}
+
+.subscribe-btn{
+    background-color: #FB9B05;
+    border: transparent;
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.subscribe button:hover{
+    color: #fff;
+}
+
+.menu{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu-heading{
+    color: #242225;
+    font-size: 4rem;
+}
+
+.food{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.order{
+    height: 90%;
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 20px 10px 50px grey;
+    padding: 10px;
+}
+
+.order-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-info-btn{
+    background-color: #FB9B05;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.order-info button:hover{
+    color: #fff;
+}
+
+.order-price{
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.support{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #242225;
+}
+
+.support-heading{
+font-size: 4rem;
+}
+
+.support-form{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 700;
+}
+
+.label{
+    display: flex;
+    gap: 10px;
+}
+
+.input{
+    border-radius: 5px;
+    border: transparent;
+    background-color: #e6e5e3;
+    padding: 5px;
+}
+
+.textarea, .input{
+    outline: none;
+}
+
+.form-btn{
+    height: 10%;
+    width: 10%;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #FB9B05;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+form button:hover{
+    color: #fff;
+}

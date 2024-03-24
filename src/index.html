@@ -3,19 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resturant Title</title>
+    <title>FlavorSpot</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <p>Flavor<spa class="orange">Spot</spa></p>
+        </div>
         <nav>
-            <button>Home</button>
-            <button>Menu</button>
-            <button>Contact</button>
+            <div class="nav-btns">
+                <button>Home</button>
+                <button>Menu</button>
+                <button>Support</button>
+            </div>
+            <div class="header-icons">
+                <button class="search">
+                    <img src="./Assets/icons/search_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </button>
+                <button>
+                    <img src="./Assets/icons/notifications_FILL0_wght400_GRAD0_opsz24.svg" alt="cart icon">
+                </button>
+            </div>
         </nav>
     </header>
 
     <div class="content">
+        <!-- <div class="home">
+            <div class="home-info">
+                <h1 class="home-info-heading">We Serve <br>Delicious <span class="orange">Food</span>
+                </h1>
+                <div class="info">
+                    <p>Keep it flavorfull with these delicious meals.From classic to modern we bring you the joy of taste.<br> Enjoy every meal like it's your first!</p>
+                <button class="home-info-btn">Get Started</button>
+                </div>
+            </div>
+            <div class="home-img">
+            </div>
+        </div>
 
+        <div class="about">
+            <div class="about-img">
+                <div class="style"></div>
+            </div>
+            <div class="about-info">
+                <h1 class="about-info-heading">About <span class="orange">Us</span></h1>
+                <div class="aboutInfo">
+                    <p>Keep healthy food readliy available.When you get hungery, you're more likely to eat the first thing you see on the counter<br> Enjoy every meal like it's your first!</p>
+                <button class="about-info-btn">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="why-choose-us">
+            <h1 class="why-choose-us-heading">Why Choose Our <span class="orange">Food</span></h1>
+            <div class="best">
+                <div class="quality">
+                    <img class="quality-img" src="./Assets/icons/dinner_dining_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="80">
+                    <h2>Quality Food</h2>
+                    <p class="best-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima repudiandae odit.</p>
+                </div>
+                <div class="taste">
+                    <img class="taste-img" src="./Assets/icons/skillet_FILL0_wght400_GRAD0_opsz24 (copy).svg" alt="" height="80">
+                    <h2>Super Taste</h2>
+                    <p class="best-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima repudiandae odit.</p>
+                </div>
+                <div class="fast">
+                    <img class="fast-img" src="./Assets/icons/motorcycle_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="80">
+                    <h2>Fast Delivery</h2>
+                    <p  class="best-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima repudiandae odit.</p>
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- Menu -->
+        <!-- <div class="menu">
+            <h1 class="menu-heading">Food <span class="orange">Menu</span></h1>
+            <div class="food">
+                <div class="order">
+                    <img src="./Assets/imgs/grilled-spicy-chicken-wings-with-ketchup-and-french-fries-ai-generative-free-png.webp" alt="">
+                    <div class="order-info">
+                        <h2>Breakfast Meal</h2>
+                        <button class="order-info-btn">Add to cart</button>
+                    </div>
+                    <div class="order-price">
+                      200$
+                    </div>
+                </div>
+                <div class="order">
+                    <img src="./Assets/imgs/about.webp" alt="">
+                    <div class="order-info">
+                        <h2>Lunch Meal</h2>
+                        <button class="order-info-btn">Add to cart</button>
+                    </div>
+                    <div class="order-price">
+                        200$
+                    </div>
+                </div>
+                <div class="order">
+                    <img src="./Assets/imgs/about.webp" alt="">
+                    <div class="order-info">
+                        <h2>Dinner Meal</h2>
+                        <button class="order-info-btn">Add to cart</button>
+                    </div>
+                    <div class="order-price">
+                        200$
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!-- Support -->
+        <!-- <div class="support">
+            <h1 class="support-heading">Need <span class="orange">Help?</span></h1>
+            <form class="support-form">
+                <label for="email" class="label">
+                    Email Adress: <input type="email" name="email" id="email" class="input">
+                </label>
+                <label for="phone" class="label">
+                    Phone Number: <input type="tel" class="input">
+                </label>
+                <label for="problem" class="label">
+                    What is the issue?<textarea name="problem" id="problem" cols="30" rows="10" class="textarea"></textarea>
+                </label>
+                <button class="form-btn">Submit</button>
+            </form>
+        </div> -->
+
+
+        <footer class="footer">
+            <h1>Flavor<span class="orange">Spot</span></h1>
+            <div class="hours">
+                <h3>Opening Hours</h3>
+                <p class="hours-info">Mon-Fri: 09:900 AM - 06:00 PM Saturday: 09:900 AM - 04:00 PM Sunday: Closed</p>
+            </div>
+            <div class="location">
+                <h3>Contact Us</h3>
+                <p class="location-info">543 Country Club Ave, Central Park NC 23412, NewYork, USA <br>+999 215 215 2151</p>
+            </div>
+            <div class="subscribe">
+                <h3 class="subscribe-heading">Subscribe</h3>
+                <input type="text" placeholder="Enter your email" class="subscribe-input">
+                <button class="subscribe-btn">Sign up</button>
+            </div>
+        </footer>
     </div>
     
 </body>
