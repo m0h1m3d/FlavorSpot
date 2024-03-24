@@ -6,7 +6,6 @@
 
 body{
     height: 100vh;
-    width: 100%;
 }
 
 
@@ -43,6 +42,7 @@ nav{
     justify-content: space-around;
     background-color: #FB9B05;
     border-radius: 100px 0px 0px 0px;
+    transition: border-radius 0.5s;
 }
 
 .nav-btns{
@@ -56,12 +56,14 @@ nav button{
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
-    transition: color 0.2s;
+    transition-property: transform color;
+    transition-duration: 0.5s;
     color: #2F2D31;
 }
 
 nav button:hover{
     color: #fff;
+    transform: translateY(-3px);
 }
 
 .header-icons{
@@ -70,14 +72,19 @@ nav button:hover{
 }
 
 .content{
-    height: 100%;
-    width: 100%;
+   height: 100%;
+   width: 100%;
 }
 
 .home{
     height: 80%;
     width: 100%;
     display: flex;
+    transition: opacity 0.5s;
+}
+
+.hidden{
+    opacity: 0;
 }
 
 .home-info, .home-img{
@@ -86,7 +93,7 @@ nav button:hover{
 
 .home-img{
     background-color: #FB9B05;
-    width: 62%;
+    width: 62.1%;
     border-radius: 0px 0px 0px 100px;
     background-image: url('./Assets/imgs/grilled-spicy-chicken-wings-with-ketchup-and-french-fries-ai-generative-free-png.webp');
     background-repeat: no-repeat;
@@ -106,7 +113,6 @@ nav button:hover{
 
 .home-info-heading{
     font-size: 4rem;
-    font-weight: 700;
 }
 
 .info{
@@ -150,7 +156,6 @@ nav button:hover{
 }
 
 .about-info{
-    /* background-color: green; */
     height: 100%;
     width: 80%;
     display: flex;
@@ -162,7 +167,6 @@ nav button:hover{
 }
 
 .aboutInfo{
-    /* background-color: red; */
     height: 40%;
     width: 70%;
     display: flex;
@@ -176,7 +180,6 @@ nav button:hover{
 
 .about-info-heading{
     font-size: 4rem;
-    font-weight: 700;
 }
 
 .about-info-btn{
@@ -217,28 +220,26 @@ nav button:hover{
     z-index: -1;
 }
 
-.why-choose-us{
+.choose{
     margin-top: 70px;
     height: 100%;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #242225;
 }
 
-.why-choose-us-heading{
+.choose-heading{
     font-size: 4rem;
     font-weight: 700;
-    color: #2F2D31;
 }
 
 .best{
     height: 70%;
     width: 80%;
-    /* background-color: green; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -247,13 +248,11 @@ nav button:hover{
 .quality, .taste, .fast{
     height: 100%;
     width: 25%;
-    /* background-color: red; */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    color: #242225;
     transition: box-shadow 0.3s;
     padding: 10px;
 }
@@ -333,13 +332,13 @@ nav button:hover{
 .menu{
     height: 90%;
     width: 100%;
-    /* background-color: red; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
+    transition: opacity 0.5s;
 }
 
 .menu-heading{
@@ -400,6 +399,7 @@ nav button:hover{
     justify-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #242225;
+    transition: opacity 0.5s;
 }
 
 .support-heading{
@@ -443,6 +443,6 @@ font-size: 4rem;
     transition: color 0.3s;
 }
 
-form button:hover{
+.form-btn:hover{
     color: #fff;
 }
