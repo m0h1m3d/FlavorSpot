@@ -61,6 +61,23 @@ nav button{
     color: #2F2D31;
 }
 
+.search-icon{
+    background-color: red;
+    height: 50px;
+    width: 20px;
+    background: url('./Assets/icons/search_FILL0_wght400_GRAD0_opsz24.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.notif-icon{
+    height: 50px;
+    width: 20px;
+    background: url('./Assets/icons/notifications_FILL0_wght400_GRAD0_opsz24.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 nav button:hover{
     color: #fff;
     transform: translateY(-3px);
@@ -69,6 +86,8 @@ nav button:hover{
 .header-icons{
     display: flex;
     gap: 10px;
+    height: 50px;
+    width: 100px;
 }
 
 .content{
@@ -258,9 +277,35 @@ nav button:hover{
 }
 
 .quality-img, .taste-img, .fast-img{
+    width: 30%;
     border-radius: 50%;
     background: #ff9900;
-    padding: 10px;
+}
+
+.quality-img{
+    height: 20%;
+    background-image: url('./Assets/icons/dinner_dining_FILL0_wght400_GRAD0_opsz24.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    border: transparent;
+}
+
+.taste-img{
+    height: 20%;
+    background-image: url('./Assets/icons/skillet_FILL0_wght400_GRAD0_opsz24 (copy).svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    border: transparent;
+}
+
+.fast-img{
+    height: 20%;
+    background-image: url('./Assets/icons/motorcycle_FILL0_wght400_GRAD0_opsz24.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
 }
 
 .quality:hover, .taste:hover, .fast:hover{
@@ -363,6 +408,36 @@ nav button:hover{
     justify-content: space-evenly;
     box-shadow: 20px 10px 50px grey;
     padding: 10px;
+}
+
+.order-one{
+    background: url('./Assets/imgs/grilled-spicy-chicken-wings-with-ketchup-and-french-fries-ai-generative-free-png.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    height: 50%;
+    width: 100%;
+    border: transparent;
+}
+
+.order-two{
+    background: url('./Assets/imgs/about.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    height: 50%;
+    width: 100%;
+    border: transparent;
+}
+
+.order-three{
+    background: url('./Assets/imgs/grilled-spicy-chicken-wings-with-ketchup-and-french-fries-ai-generative-free-png.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    height: 50%;
+    width: 100%;
+    border: transparent;
 }
 
 .order-info{
