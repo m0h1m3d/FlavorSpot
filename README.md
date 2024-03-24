@@ -20,3 +20,5 @@
 -got more familiar with npm scripts and how to automate certain tasks
 
 -got more grasp on project directory structure and code organization
+
+-got the design idea from https://www.behance.net/gallery/107490815/Food-Landing-Page
